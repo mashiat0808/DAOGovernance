@@ -1,7 +1,6 @@
 # 🧩 DAO Governance Census 2025  
 *A Unified Multi-Platform Dataset for Decentralized Autonomous Organization (DAO) Governance Analysis*  
 
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)  
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)  
 ![Status](https://img.shields.io/badge/Status-Active-lightgreen.svg)
 
@@ -53,8 +52,14 @@ Key improvements and features:
 ## 📊 Output Datasets  
 
 The final integrated dataset includes three CSV files:
+
+
 ├── deployment.csv # DAO-level metadata and activity summary
+
+
 ├── proposals.csv # Governance proposal information
+
+
 └── votes.csv # Individual vote-level records
 
 
