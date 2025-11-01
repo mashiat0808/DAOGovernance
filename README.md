@@ -69,7 +69,7 @@ Each file follows a **standardized schema** for interoperability and ease of use
 
 ## 🧩 Code Inspirations  
 Some code structures and schema mappings were inspired by the [Grasia DAO Ecosystem Census](https://github.com/Grasia/dao-ecosystem-census/tree/main/deployments) repository.  
-This project expands on that foundation with additional platforms, updated APIs, and improved automation.
+This project expands on that foundation with updated APIs, and improved automation.
 
 ---
 
