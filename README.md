@@ -6,11 +6,39 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)  
 ---
 
+## 🧭 About
+
+The **DAO Governance Census 2025** is an open research project that provides the most comprehensive, multi-platform dataset of **Decentralized Autonomous Organization (DAO)** governance to date.
+
+By aggregating data from six major DAO platforms — **Snapshot**, **Tally**, **Realms (Solana)**, **Aragon**, **DAOhaus**, and **DAOstack** — the project enables reproducible, large-scale analyses of decentralized decision-making and participation patterns across blockchains.
+
+This repository contains the **data processing notebooks, schema mappings, and integration scripts** used to build the dataset.
+It expands upon the **2023 DAO Census dataset** ([Zenodo link](https://zenodo.org/records/11663853)) with more data, improved methodology, and detailed documentation for reproducibility.
+
+---
+
+## 🧩 Keywords
+
+`Blockchain` · `Decentralized Autonomous Organizations (DAOs)` · `Governance` · `Cross-Chain Analysis` · `Open Dataset` · `DAO Analytics`
+
+---
+
+## 👥 Authors & Contributors
+
+| Name                    | Affiliation                                            | 
+| ----------------------- | ------------------------------------------------------ | 
+| **Mashiat Amin Farin**  | University of Texas at Dallas                          | 
+| **Prof. Samer Hassan**  | Universidad Complutense de Madrid / Harvard University | 
+| **Prof. Javier Arroyo** | Universidad de Alcalá / Universidad Complutense de Madrid                      | 
+---
+
+
+
 ## 📘 Overview  
 This repository contains the **code, notebooks, and methodology** used to construct an updated version of the **DAO Governance Census** dataset.  
 It consolidates DAO governance data from six major platforms — **Aragon**, **DAOstack**, **DAOhaus**, **Snapshot**, **Tally**, and **Realms (Solana)** — into a **unified schema** suitable for large-scale analysis of DAO activity, participation, and decision-making.  
 
-This project extends the 2023 dataset released on [Zenodo](https://zenodo.org/records/11663853) with new data, improved retrieval logic, and reproducible Jupyter notebooks.
+This project extends the 2023 dataset released on [Zenodo](https://zenodo.org/records/10794916) with new data, improved retrieval logic, and reproducible Jupyter notebooks.
 
 ---
 
@@ -31,7 +59,7 @@ This project extends the 2023 dataset released on [Zenodo](https://zenodo.org/re
 
 | Platform | Source / Method | Description |
 |-----------|------------------|--------------|
-| **Aragon, DAOstack, DAOhaus** | [Zenodo DAO Census Dataset (2023)](https://zenodo.org/records/11663853) | Original census data reprocessed for schema consistency. |
+| **Aragon, DAOstack, DAOhaus** | [Zenodo DAO-analyzer Dataset (2025)](https://zenodo.org/records/11663853) | Updates daily |
 | **Snapshot** | Snapshot GraphQL API | Queried directly for DAOs, proposals, and votes. |
 | **Tally** | Tally GraphQL API | Expanded coverage with direct organization-level queries. |
 | **Realms (Solana)** | [RealmsData GitHub Repo](https://github.com/mashiat0808/realmsData) via DRPC endpoint | On-chain Solana governance data fetched and parsed locally. |
@@ -74,7 +102,7 @@ This project expands on that foundation with updated APIs, and improved automati
 ---
 
 ## 🔗 Links  
-- **Original Dataset:** [Zenodo Record (2023)](https://zenodo.org/records/11663853)  
+- **Original Dataset from 2023:** [Census of the Ecosystem of Decentralized Autonomous Organizations](https://zenodo.org/records/10794916))  
 - **Realms Data Retrieval Repo:** [mashiat0808/realmsData](https://github.com/mashiat0808/realmsData)  
 - **Paper (in progress):** *DAO Governance Census 2025: A Unified Multi-Platform Dataset*
 - **Dataset (in progress):** To be uploaded to zenodo and link attached here.
