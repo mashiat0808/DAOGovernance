@@ -11,7 +11,7 @@ pip install -r requirements.txt
 ---
 
 ## Loading the Dataset
-
+The dataset is hosted on [zenodo](10.5281/zenodo.17529116) and can be downloaded from there.
 The dataset consists of three CSV files:
 
 * **`deployments.csv`** – General DAO deployment information, including platform, number of proposals, unique voters, total votes, and estimated voting power.
