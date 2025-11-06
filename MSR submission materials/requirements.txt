@@ -1,0 +1,20 @@
+# Core data processing
+pandas>=2.0
+numpy>=1.25
+
+# Date parsing and manipulation
+python-dateutil>=2.9
+
+# Visualization
+matplotlib>=3.8
+seaborn>=0.12
+
+# Progress bars for large datasets
+tqdm>=4.66
+
+# Optional: for running the notebook
+jupyterlab>=4.2
+notebook>=7.0
+
+# Optional: if fetching additional data via API
+requests>=2.31
