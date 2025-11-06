@@ -7,7 +7,7 @@
 ---
 
 ## 📘 Overview  
-This repository contains the **code, notebooks, and methodology** used to construct an updated version of the **DAO Governance Census** dataset.  
+This repository contains the **code, notebooks, and methodology** used to construct an updated version of the **DAO Governance Census** dataset, which is hosted on [zenodo new census](10.5281/zenodo.17529116).
 It consolidates DAO governance data from six major platforms — **Aragon**, **DAOstack**, **DAOhaus**, **Snapshot**, **Tally**, and **Realms (Solana)** — into a **unified schema** suitable for large-scale analysis of DAO activity, participation, and decision-making.  
 
 This project extends the 2023 dataset released on [Zenodo](https://zenodo.org/records/10794916) with new data, improved retrieval logic, and reproducible Jupyter notebooks.
