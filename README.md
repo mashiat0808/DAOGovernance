@@ -6,34 +6,6 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)  
 ---
 
-## 🧭 About
-
-The **DAO Governance Census 2025** is an open research project that provides the most comprehensive, multi-platform dataset of **Decentralized Autonomous Organization (DAO)** governance to date.
-
-By aggregating data from six major DAO platforms — **Snapshot**, **Tally**, **Realms (Solana)**, **Aragon**, **DAOhaus**, and **DAOstack** — the project enables reproducible, large-scale analyses of decentralized decision-making and participation patterns across blockchains.
-
-This repository contains the **data processing notebooks, schema mappings, and integration scripts** used to build the dataset.
-It expands upon the **2023 DAO Census dataset** ([Zenodo link](https://zenodo.org/records/11663853)) with more data, improved methodology, and detailed documentation for reproducibility.
-
----
-
-## 🧩 Keywords
-
-`Blockchain` · `Decentralized Autonomous Organizations (DAOs)` · `Governance` · `Cross-Chain Analysis` · `Open Dataset` · `DAO Analytics`
-
----
-
-## 👥 Authors & Contributors
-
-| Name                    | Affiliation                                            | 
-| ----------------------- | ------------------------------------------------------ | 
-| **Mashiat Amin Farin**  | University of Texas at Dallas                          | 
-| **Prof. Samer Hassan**  | Universidad Complutense de Madrid / Harvard University | 
-| **Prof. Javier Arroyo** | Universidad de Alcalá / Universidad Complutense de Madrid                      | 
----
-
-
-
 ## 📘 Overview  
 This repository contains the **code, notebooks, and methodology** used to construct an updated version of the **DAO Governance Census** dataset.  
 It consolidates DAO governance data from six major platforms — **Aragon**, **DAOstack**, **DAOhaus**, **Snapshot**, **Tally**, and **Realms (Solana)** — into a **unified schema** suitable for large-scale analysis of DAO activity, participation, and decision-making.  
@@ -99,6 +71,15 @@ Each file follows a **standardized schema** for interoperability and ease of use
 Some code structures and schema mappings were inspired by the [Grasia DAO Ecosystem Census](https://github.com/Grasia/dao-ecosystem-census/tree/main/deployments) repository.  
 This project expands on that foundation with updated APIs, and improved automation.
 
+---
+
+## 👥 Authors & Contributors
+
+| Name                    | Affiliation                                            | 
+| ----------------------- | ------------------------------------------------------ | 
+| **Mashiat Amin Farin**  | University of Texas at Dallas                          | 
+| **Prof. Samer Hassan**  | Universidad Complutense de Madrid / Harvard University | 
+| **Prof. Javier Arroyo** | Universidad de Alcalá / Universidad Complutense de Madrid                      | 
 ---
 
 ## 🔗 Links  
