@@ -139,12 +139,6 @@ The file **`votes.csv`** records data about individual votes cast on DAO proposa
 
 ## Dataset
 
-Here’s the **formatted “Dataset” section** for your README, written to match the citation and structure style of the original Peña-Calvin et al. dataset entry:
-
----
-
-### DATASET
-
 **Title:** *Census of Decentralized Autonomous Organizations Across Platforms (2025)*
 **DOI:** [10.5281/zenodo.17529116](https://doi.org/10.5281/zenodo.17529116)
 **Link:** [https://zenodo.org/records/17529117](https://zenodo.org/records/17529117)
