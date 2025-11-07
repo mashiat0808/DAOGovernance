@@ -137,9 +137,23 @@ The file **`votes.csv`** records data about individual votes cast on DAO proposa
 ---
 
 
+## Dataset
+
+Here’s the **formatted “Dataset” section** for your README, written to match the citation and structure style of the original Peña-Calvin et al. dataset entry:
+
+---
+
+### DATASET
+
+**Title:** *Census of Decentralized Autonomous Organizations Across Platforms (2025)*
+**DOI:** [10.5281/zenodo.17529116](https://doi.org/10.5281/zenodo.17529116)
+**Link:** [https://zenodo.org/records/17529117](https://zenodo.org/records/17529117)
+
+**Recommended citation:**
+Farin, M. A., Arroyo, J., & Hassan, S. (2025). *Census of Decentralized Autonomous Organizations Across Platforms (2025).* Zenodo. [https://doi.org/10.5281/zenodo.17529116](https://doi.org/10.5281/zenodo.17529116)
 
 
-
+---
 
 ## 🧩 Code Inspirations  
 Some code structures and schema mappings were inspired by the [Grasia DAO Ecosystem Census](https://github.com/Grasia/dao-ecosystem-census/tree/main/deployments) repository.  
@@ -160,7 +174,7 @@ This project expands on that foundation with updated APIs, and improved automati
 - **Original Dataset from 2023:** [Census of the Ecosystem of Decentralized Autonomous Organizations](https://zenodo.org/records/10794916))  
 - **Realms Data Retrieval Repo:** [mashiat0808/realmsData](https://github.com/mashiat0808/realmsData)  
 - **Paper (in progress):** *DAO Governance Census 2025: A Unified Multi-Platform Dataset*
-- **Dataset (in progress):** To be uploaded to zenodo and link attached here.
+- **Dataset (in progress):** [https://doi.org/10.5281/zenodo.17529116](https://doi.org/10.5281/zenodo.17529116)
 
 ---
 
