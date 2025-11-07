@@ -54,7 +54,7 @@ Key improvements and features:
 The final integrated dataset includes three CSV files:
 
 
-├── deployment.csv # DAO-level metadata and activity summary
+├── deployment.csv:  # DAO-level metadata and activity summary
 
 
 ├── proposals.csv # Governance proposal information
@@ -66,6 +66,80 @@ The final integrated dataset includes three CSV files:
 Each file follows a **standardized schema** for interoperability and ease of use in downstream analysis.
 
 ---
+
+### DESCRIPTION
+
+The dataset comprises three CSV files: **`deployments.csv`**, **`proposals.csv`**, and **`votes.csv`**, each containing essential information about DAO (Decentralized Autonomous Organization) deployments, their proposals, and the corresponding votes. It includes data from multiple DAO platforms, namely **Aragon**, **DAOHaus**, **DAOstack**, **Realms**, **Snapshot**, and **Tally**.
+
+The file **`deployments.csv`** provides insights into the general aspects of DAO deployments, including the platform on which each DAO is deployed, the total number of proposals, the number of unique voters, total votes cast, and the estimated voting power used within the deployment.
+
+The file **`proposals.csv`** contains detailed information about all proposals associated with each DAO deployment. It includes the date of creation, the number of votes received, the total voting power employed by voters on each proposal, and the platform from which the proposal originates.
+
+The file **`votes.csv`** records data about individual votes cast on DAO proposals. It includes the blockchain address of each voter, the voting power (weight) used in casting the vote, the timestamp of the vote, and the corresponding platform where the vote was registered.
+
+---
+
+
+### DATA-SPECIFIC INFORMATION FOR: [deployments.csv]
+
+**Number of variables:** 7
+**Variable List:**
+
+| Field               | Description                                                                                                         |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| **deployment_id**   | Unique DAO deployment identifier. Each record corresponds to a distinct DAO instance within a platform.             |
+| **platform**        | Name of the DAO platform where the deployment is hosted (e.g., Aragon, DAOhaus, DAOstack, Realms, Snapshot, Tally). |
+| **name**            | The official or recorded name of the DAO deployment.                                                                |
+| **proposals_count** | Total number of proposals created within the DAO deployment.                                                        |
+| **unique_voters**   | Total number of distinct voter addresses that have participated in at least one proposal within the DAO.            |
+| **votes_count**     | Total number of votes cast across all proposals within the DAO deployment.                                          |
+| **estimated_vp**    | Estimated total voting power accumulated or used across all proposals within the DAO deployment.                    |
+
+**Missing data codes:** `NaN`
+
+---
+
+### DATA-SPECIFIC INFORMATION FOR: [proposals.csv]
+
+**Number of variables:** 6
+**Variable List:**
+
+| Field             | Description                                                                  |
+| ----------------- | ---------------------------------------------------------------------------- |
+| **proposal_id**   | Unique proposal identifier within the dataset.                               |
+| **deployment_id** | Identifier linking the proposal to its corresponding DAO deployment.         |
+| **date**          | Date when the proposal was created or published on the DAO platform.         |
+| **votes_count**   | Number of votes cast on this proposal.                                       |
+| **total_vp**      | Total voting power (sum of weights) used by voters in this proposal.         |
+| **platform**      | DAO platform where the proposal is hosted (e.g., Snapshot, Tally, DAOstack). |
+
+**Missing data codes:** NaN
+
+---
+
+### DATA-SPECIFIC INFORMATION FOR: [votes.csv]
+
+**Number of variables:** 7
+**Variable List:**
+
+| Field             | Description                                                                              |
+| ----------------- | ---------------------------------------------------------------------------------------- |
+| **vote_id**       | Unique identifier for each vote record.                                                  |
+| **proposal_id**   | Identifier of the proposal to which the vote corresponds.                                |
+| **deployment_id** | Identifier of the DAO deployment where the proposal belongs.                             |
+| **voter**         | Blockchain address of the user who cast the vote.                                        |
+| **date**          | Timestamp or date when the vote was cast.                                                |
+| **weight**        | Amount of voting power (e.g., token weight or delegated power) used in casting the vote. |
+| **platform**      | DAO platform where the vote was registered (e.g., Snapshot, Tally, DAOhaus).             |
+
+**Missing data codes:** `NaN`
+
+---
+
+
+
+
+
 
 ## 🧩 Code Inspirations  
 Some code structures and schema mappings were inspired by the [Grasia DAO Ecosystem Census](https://github.com/Grasia/dao-ecosystem-census/tree/main/deployments) repository.  
