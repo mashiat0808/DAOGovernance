@@ -39,6 +39,8 @@ If you use or modify the code → cite the GitHub repo and the publication.
 ## Acknowledgments
 
 This work was supported by the European Research Council (ERC-2017-STG, grant no. 759207) for the project P2P Models and by the Spanish Ministry of Science and Innovation for the project DAOapplications (grant no. PID2021-127956OB-I00). We thank Andrea Peña Calvin and David Davó for their feedback and contributions.
+
+
 ---
 
 ## Repository Structure  
