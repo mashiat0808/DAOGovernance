@@ -1,4 +1,4 @@
-# 🧩 DAO Governance Census 2025  
+# DAO Governance Census 2025  
 *A Unified Multi-Platform Dataset for Decentralized Autonomous Organization (DAO) Governance Analysis*  
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)  
@@ -6,15 +6,39 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)  
 ---
 
-## 📘 Overview  
+## Overview  
 This repository contains the **code, notebooks, and methodology** used to construct an updated version of the **DAO Governance Census** dataset, which is hosted on [zenodo new census](10.5281/zenodo.17529116).
 It consolidates DAO governance data from six major platforms — **Aragon**, **DAOstack**, **DAOhaus**, **Snapshot**, **Tally**, and **Realms (Solana)** — into a **unified schema** suitable for large-scale analysis of DAO activity, participation, and decision-making.  
 
-This project extends the 2023 dataset released on [Zenodo](https://zenodo.org/records/10794916) with new data, improved retrieval logic, and reproducible Jupyter notebooks.
+The dataset provides a comprehensive, multi-platform overview of DAOs as of October 2025, covering more than 85,000 DAOs, 330,000 governance proposals, and 66 million votes. This work is presented in the paper:
+[Mapping Decentralized Autonomous Organization Governance Across Chains: An Updated, Multi-Platform Dataset](https://dl.acm.org/doi/10.1145/3793302.3793314) published in the Proceedings of the 23rd International Conference on Mining Software Repositories (MSR 2026). This project extends the 2023 dataset released on [Zenodo](https://zenodo.org/records/10794916) with new data, improved retrieval logic, and reproducible Jupyter notebooks.
 
+## Academic Context
+This dataset and its associated analysis support empirical research on DAO governance dynamics, voting behavior, participation, and cross-platform governance patterns.
+
+## Recommended Citation
+If you use this dataset, code, or associated publication in your work, please cite the relevant resources below.
+
+### Dataset
+Farin, M. A., Arroyo, J., & Hassan, S. (2025). Census of Decentralized Autonomous Organizations Across Platforms (2025), DOI: 10.5281/zenodo.17529116, Link: https://zenodo.org/records/17529117
+
+### Publication
+Farin, M. A., Arroyo, J., & Hassan, S. Mapping Decentralized Autonomous Organization Governance Across Chains: An Updated, Multi-Platform Dataset. Proceedings of the 23rd International Conference on Mining Software Repositories (MSR 2026). DOI: https://doi.org/10.1145/3793302.3793314
+
+### Code
+Farin, M. A. DAO Governance Census 2025. GitHub, 2025. https://github.com/mashiat0808/DAOGovernance
+
+Please cite the code, dataset and/or publication depending on your use case:
+
+If you use the dataset → cite the dataset and the publication (and optionally the code).
+If you use the results, methods, or analysis in the paper → cite the publication.
+If you use or modify the code → cite the GitHub repo and the publication.
+
+## Acknowledgments
+This work was supported by the European Research Council (ERC-2017-STG, grant no. 759207) for the project P2P Models and by the Spanish Ministry of Science and Innovation for the project DAOapplications (grant no. PID2021-127956OB-I00). We thank Andrea Peña Calvin and David Davó for their feedback and contributions.
 ---
 
-## 🗂 Repository Structure  
+## Repository Structure  
 
 | File / Notebook | Description |
 |------------------|-------------|
@@ -27,7 +51,7 @@ This project extends the 2023 dataset released on [Zenodo](https://zenodo.org/re
 
 ---
 
-## ⚙️ Data Sources  
+## Data Sources  
 
 | Platform | Source / Method | Description |
 |-----------|------------------|--------------|
@@ -38,7 +62,7 @@ This project extends the 2023 dataset released on [Zenodo](https://zenodo.org/re
 
 ---
 
-## 🧠 Methodology  
+## Methodology  
 
 Key improvements and features:
 - **Unified schema** aligning six DAO platforms into common CSV formats (`deployment.csv`, `proposals.csv`, `votes.csv`).  
@@ -49,7 +73,7 @@ Key improvements and features:
 
 ---
 
-## 📊 Output Datasets  
+## Output Datasets  
 
 The final integrated dataset includes three CSV files:
 
@@ -137,38 +161,25 @@ The file **`votes.csv`** records data about individual votes cast on DAO proposa
 ---
 
 
-## Dataset
 
-**Title:** *Census of Decentralized Autonomous Organizations Across Platforms (2025)*
-**DOI:** [10.5281/zenodo.17529116](https://doi.org/10.5281/zenodo.17529116)
-**Link:** [https://zenodo.org/records/17529117](https://zenodo.org/records/17529117)
-
-**Recommended citation:**
-Farin, M. A., Arroyo, J., & Hassan, S. (2025). *Census of Decentralized Autonomous Organizations Across Platforms (2025).* Zenodo. [https://doi.org/10.5281/zenodo.17529116](https://doi.org/10.5281/zenodo.17529116)
-
-
----
-
-## 🧩 Code Inspirations  
+## Code Inspirations  
 Some code structures and schema mappings were inspired by the [Grasia DAO Ecosystem Census](https://github.com/Grasia/dao-ecosystem-census/tree/main/deployments) repository.  
 This project expands on that foundation with updated APIs, and improved automation.
 
 ---
 
-## 👥 Authors & Contributors
-
-| Name                    | Affiliation                                            | 
-| ----------------------- | ------------------------------------------------------ | 
-| **Mashiat Amin Farin**  | University of Texas at Dallas                          | 
-| **Prof. Samer Hassan**  | Universidad Complutense de Madrid / Harvard University | 
-| **Prof. Javier Arroyo** | Universidad de Alcalá / Universidad Complutense de Madrid                      | 
+## Authorship and License
+Corresponding Author: Mashiat Amin Farin
+Contact: bsse1202@iit.du.ac.bd
+Institution: University of Texas at Dallas
+License: MIT
 ---
 
-## 🔗 Links  
+## Links  
 - **Original Dataset from 2023:** [Census of the Ecosystem of Decentralized Autonomous Organizations](https://zenodo.org/records/10794916))  
 - **Realms Data Retrieval Repo:** [mashiat0808/realmsData](https://github.com/mashiat0808/realmsData)  
-- **Paper (in progress):** *DAO Governance Census 2025: A Unified Multi-Platform Dataset*
-- **Dataset (in progress):** [https://doi.org/10.5281/zenodo.17529116](https://doi.org/10.5281/zenodo.17529116)
+- **Paper:** [https://dl.acm.org/doi/10.1145/3793302.3793314]
+- **Dataset:** [https://doi.org/10.5281/zenodo.17529116](https://doi.org/10.5281/zenodo.17529116)
 
 ---
 
