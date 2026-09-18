@@ -31,7 +31,9 @@ Farin, M. A. DAO Governance Census 2025. GitHub, 2025. https://github.com/mashia
 Please cite the code, dataset and/or publication depending on your use case:
 
 If you use the dataset → cite the dataset and the publication (and optionally the code).
+
 If you use the results, methods, or analysis in the paper → cite the publication.
+
 If you use or modify the code → cite the GitHub repo and the publication.
 
 ## Acknowledgments
